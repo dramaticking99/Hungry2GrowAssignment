@@ -14,6 +14,8 @@
 		12C2A1112BC987370036208B /* Hungry2GrowAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C2A1102BC987370036208B /* Hungry2GrowAssignmentTests.swift */; };
 		12C2A11B2BC987370036208B /* Hungry2GrowAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C2A11A2BC987370036208B /* Hungry2GrowAssignmentUITests.swift */; };
 		12C2A11D2BC987370036208B /* Hungry2GrowAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C2A11C2BC987370036208B /* Hungry2GrowAssignmentUITestsLaunchTests.swift */; };
+		12C2A12A2BC989FE0036208B /* PostModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C2A1292BC989FE0036208B /* PostModal.swift */; };
+		12C2A1312BC9BD020036208B /* PostViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C2A1302BC9BD020036208B /* PostViewModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		12C2A1162BC987370036208B /* Hungry2GrowAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hungry2GrowAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12C2A11A2BC987370036208B /* Hungry2GrowAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hungry2GrowAssignmentUITests.swift; sourceTree = "<group>"; };
 		12C2A11C2BC987370036208B /* Hungry2GrowAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hungry2GrowAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12C2A1292BC989FE0036208B /* PostModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModal.swift; sourceTree = "<group>"; };
+		12C2A1302BC9BD020036208B /* PostViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				12C2A0FF2BC987360036208B /* Hungry2GrowAssignmentApp.swift */,
-				12C2A1012BC987360036208B /* ContentView.swift */,
+				12C2A12D2BC9B1150036208B /* ViewModal */,
+				12C2A12C2BC9B10E0036208B /* View */,
+				12C2A12B2BC9B1080036208B /* Modal */,
 				12C2A1032BC987370036208B /* Assets.xcassets */,
 				12C2A1052BC987370036208B /* Preview Content */,
 			);
@@ -125,6 +131,30 @@
 				12C2A11C2BC987370036208B /* Hungry2GrowAssignmentUITestsLaunchTests.swift */,
 			);
 			path = Hungry2GrowAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		12C2A12B2BC9B1080036208B /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				12C2A1292BC989FE0036208B /* PostModal.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		12C2A12C2BC9B10E0036208B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12C2A1012BC987360036208B /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12C2A12D2BC9B1150036208B /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				12C2A1302BC9BD020036208B /* PostViewModal.swift */,
+			);
+			path = ViewModal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C2A1312BC9BD020036208B /* PostViewModal.swift in Sources */,
+				12C2A12A2BC989FE0036208B /* PostModal.swift in Sources */,
 				12C2A1022BC987360036208B /* ContentView.swift in Sources */,
 				12C2A1002BC987360036208B /* Hungry2GrowAssignmentApp.swift in Sources */,
 			);
